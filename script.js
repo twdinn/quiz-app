@@ -70,7 +70,6 @@ const loadQuiz = () => {
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
 };
-loadQuiz();
 
 const getSelected = () => {
   let answer;
@@ -100,3 +99,5 @@ submitBtn.addEventListener("click", () => {
       <button onClick = "location.reload()">Reload</button`;
   }
 });
+
+loadQuiz();
