@@ -63,3 +63,18 @@ button:focus {
   outline: none;
   background-color: #5e3370;
 }
+
+@media (max-width: 320px) {
+  .quiz-container {
+    width: 16rem;
+  }
+
+  .quiz-header {
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
